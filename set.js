@@ -15,7 +15,7 @@ global.giftedRepo = "https://github.com/mauricegift/gifted-md";
 global.giftedApiRepo = "https://api.github.com/repos/mauricegift/gifted-md";
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
+SESSION_ID: process.env.SESSION_ID || "Gifted~qYRTwICT#IVqRHw-vbwS-VU3v-WvtbdlUzoNfgtga98Zbxf9enxY", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
 SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 ANTI_DELETE: process.env.ANTI_DELETE || false, // make true to use antidelete 
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
@@ -30,7 +30,7 @@ PACK_AUTHOR: process.env.PACK_AUTHOR || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂�
 PACK_NAME: process.env.PACK_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃💜", // Added // Input Yours custom...
 PREFIX: process.env.PREFIX || ".",
 VERSION: process.env.VERSION || "5.0.0",
-ANTILINK: process.env.ANTILINK || "false", //  Enter true to kick automatically or delete to delete without kicking or warn to warn before kicking
+ANTILINK: process.env.ANTILINK || "true", //  Enter true to kick automatically or delete to delete without kicking or warn to warn before kicking
 ANTICALL: process.env.ANTICALL || "false",
 ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
@@ -42,8 +42,8 @@ AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "Gifted creates things that creates other things",
 CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
-WELCOME: process.env.WELCOME || "false",
-GOODBYE: process.env.GOODBYE || "false",    
+WELCOME: process.env.WELCOME || "true",
+GOODBYE: process.env.GOODBYE || "true",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // Enter value to true for blueticking all messages, or commands for blueticking only commands else false
 AUTO_BLOCK: process.env.AUTO_BLOCK || "212,79", // Add Multiple Country Codes Separated by Comma...
 PRESENCE: process.env.PRESENCE || "online", // Choose one: typing, recording, online, null
